@@ -8,7 +8,7 @@ This system is created for a wide variety of people:
   - People who prioritize nutrition and good health when shopping
   - People looking to save money and find shopping deals
 
-  This system will be created by Damir Golami and Syed Tahmid.
+  This system will be created by Damir and Tahmid.
 
 Summary:
 The main goals of this system:
