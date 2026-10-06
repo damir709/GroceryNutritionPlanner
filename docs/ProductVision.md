@@ -3,6 +3,9 @@
 # Problem Statement
 We propose to create a grocery nutrition planning software tool for providing shoppers with nutritional information, like food groups and calories, and to allow shoppers to compare items of similar nutrition. This software will prioritize items that are good value for nutritional content.
 
+# Vision 
+Our idea is to create an intuitive and easy to understand grocery shopping app, that allows users to save money while choosing the healthiest options.
+
 # Stakeholder Analysis
 This tool is created for a wide variety of people, and will be of use for people who need a basic grocery planning app, like a shopping list. It will also be useful for people who prioritize nutrition and good health when shopping, as well as people looking to save money and find shopping deals
 
