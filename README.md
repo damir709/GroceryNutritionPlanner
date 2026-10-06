@@ -14,8 +14,3 @@ The main goals of this system:
   - Provide shoppers with nutritional information, like food groups and calories
   - Allow shoppers to compare items of similar nutrition, let them make informed decisions
   - Prioritize items that are good value for nutritional content.
-
-The main features of the system will be:
-  - Comparisons of items in the shopper's cart, like a recommended items page
-  - Showing locations of which products are being sold at what retailers
-  - Showing healthier products first
