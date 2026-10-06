@@ -1,5 +1,5 @@
 # GroceryNutritionPlanner
-CP3490 Term project
+CP3490 Term project, Software Engineering
 # Team
 This system will be created by Damir and Tahmid.
 
