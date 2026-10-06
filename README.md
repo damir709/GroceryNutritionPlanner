@@ -1,6 +1,5 @@
 # GroceryNutritionPlanner
 #CP3490 term project
-#Requirements Specs Documentation
 
 Introduction: This document looks to detail all of the specifications and considerations for the Grocery Nutrition Planner.
 This system is created for a wide variety of people:
