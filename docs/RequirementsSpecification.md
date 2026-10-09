@@ -9,7 +9,7 @@ Users will be able to create accounts.
 
 ### FR2 User Authentication
 
-Users will be able to log in and log out of their accounts.
+Users will be able to log in and log out of their accounts. The system will reject bad login requests.
 
 ### FR3 Create Basket
 
@@ -33,17 +33,21 @@ Product vendors will be able to dispute inaccurate comments.
 
 ## Non-Functional Requirements
 
-### Security
-
-The system will reject bad login requests.
-
 ### Reliability
 
-System should display proper items when searched.
+When logged in, user baskets can be saved.
 
 ### Usability
 
 Typical users should be able to find particular items they need in less than 5 minutes.
+
+Basket should be displayed multiple different ways, both numerically and graphically.
+
+System should display closely related items whenever possible.
+
+### Maintainability
+
+Graphics and layout should be laid out cleanly, in an intuitive way.
 
 ## Constraints
 
