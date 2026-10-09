@@ -27,7 +27,7 @@ As a shopper, I want to be able to browse items so that I can know their informa
 
 # US-03 Create Basket
 
-As a shopper, I want to have different baskets so that I can compare costs smartly.
+As a shopper, I want to have different baskets so that I can compare costs in a smarter way.
 
 ## Acceptance Criteria
 
