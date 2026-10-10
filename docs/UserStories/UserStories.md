@@ -36,3 +36,13 @@ As a shopper, I want to have different baskets so that I can compare costs in a 
 - User can add more than one basket
 - User basket will display total sum of all item information
 - If there is more than one basket, baskets will compare the sums of their info
+
+# US-04 Add Comments
+
+As a shopper, I want to be able to leave comments on items so that people can read reviews and preferences.
+
+## Acceptance Criteria
+
+- Users must be logged in to leave comments
+- Users will be able to leave a short comment
+- User comments cannot contain special characters or unwanted phrases
