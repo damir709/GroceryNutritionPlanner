@@ -46,3 +46,13 @@ As a shopper, I want to be able to leave comments on items so that people can re
 - Users must be logged in to leave comments
 - Users will be able to leave a short comment
 - User comments cannot contain special characters or unwanted phrases
+
+# US-05 Edit Comments
+
+As a vendor, I want to be able to edit or review comments on items so that people are not misinformed.
+
+## Acceptance Criteria
+
+- Vendor comments can be attached to items as well
+- Vendors will be able to leave a short response to a comment
+- Vendor comments cannot contain special characters or unwanted phrases
