@@ -17,7 +17,6 @@ This tool will:
   - A breakdown of food groups per basket
 
 # Technologies Used
-  - Java
   - Python
   - SQL
 
