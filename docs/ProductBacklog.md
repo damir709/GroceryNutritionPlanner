@@ -9,4 +9,4 @@
 | PB-04 | FR4 Item Search | US-02 Browsing Items | High |
 | PB-05 | FR5 Adding Items | US-02 Browsing Items | High |
 | PB-06 | FR6 User Comments | US-04 Add Comments | High |
-| PB-07 | FR7 Comment Disputes | US-04 Add Comments | Medium |
+| PB-07 | FR7 Comment Disputes | US-05 Edit Comments | Medium |
