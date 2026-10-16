@@ -11,12 +11,19 @@ As a shopper, I want to create an account so that I can use the system.
 
 # US-02 Browsing Items
 
-As a shopper, I want to be able to browse items so that I can know their information beforehand.
+As a shopper, I want to be able to browse items so that I can purchase them later.
 
 ## Acceptance Criteria
 
 - User must be logged in to browse
-- User will be able to browse a database of items
+- User account will have access to a database of items
+
+# US-03 Item Information
+
+As a shopper, I want to be able to view item nutritional information, so I can be more informed when I shop.
+
+## Acceptance Criteria
+
 - Items will have a name
 - Items will have a brand
 - Items will have a food group
@@ -25,7 +32,7 @@ As a shopper, I want to be able to browse items so that I can know their informa
 - Items will have a specific type
 - Items will have a specific vendor location or store
 
-# US-03 Create Basket
+# US-04 Create Basket
 
 As a shopper, I want to have different baskets so that I can compare costs in a smarter way.
 
@@ -37,7 +44,7 @@ As a shopper, I want to have different baskets so that I can compare costs in a 
 - User basket will display total sum of all item information
 - If there is more than one basket, baskets will compare the sums of their info
 
-# US-04 Add Comments
+# US-05 Add Comments
 
 As a shopper, I want to be able to leave comments on items so that people can read reviews and preferences.
 
@@ -47,7 +54,7 @@ As a shopper, I want to be able to leave comments on items so that people can re
 - Users will be able to leave a short comment
 - User comments cannot contain special characters or unwanted phrases
 
-# US-05 Edit Comments
+# US-06 Edit Comments
 
 As a vendor, I want to be able to edit or review comments on items so that people are not misinformed.
 
