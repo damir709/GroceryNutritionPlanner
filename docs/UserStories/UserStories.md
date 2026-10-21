@@ -18,7 +18,18 @@ As a shopper, I want to be able to browse items so that I can purchase them late
 - User must be logged in to browse
 - User account will have access to a database of items
 
-# US-03 Item Information
+# US-03 Create Basket
+
+As a shopper, I want to have different baskets so that I can compare costs in a smarter way.
+
+## Acceptance Criteria
+
+- User must be logged in to access baskets
+- User account will have 1 or more containers they can selectively add items to
+- User baskets will display total sum of all item information
+- If there is more than one basket, baskets will compare the sums of their info
+
+# US-04 Item Information
 
 As a shopper, I want to be able to view item nutritional information, so I can be more informed when I shop.
 
@@ -31,17 +42,6 @@ As a shopper, I want to be able to view item nutritional information, so I can b
 - Items will have a purchase price
 - Items will have a specific type
 - Items will have a specific vendor location or store
-
-# US-04 Create Basket
-
-As a shopper, I want to have different baskets so that I can compare costs in a smarter way.
-
-## Acceptance Criteria
-
-- User must be logged in to access baskets
-- User account will have 1 or more containers they can selectively add items to
-- User baskets will display total sum of all item information
-- If there is more than one basket, baskets will compare the sums of their info
 
 # US-05 Favorite Items
 
