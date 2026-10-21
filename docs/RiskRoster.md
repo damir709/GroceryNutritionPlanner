@@ -28,7 +28,8 @@ If there are any risks that could occur with this project, they will be document
 | Risk ID | Category | Risk Description | Probability | Impact | Mitigation Strategy | Owner | Status |
 |----------|------------|-----------------|-------------|---------|---------------------|--------|---------|
 | R-01 | Technical | The team is inexperienced with graphical interface creation. | H | M | Can get up to speed with extra tutorials | Damir | Open |
-| R-02 | Logistical | The team is inexperienced with front-end development. | H | M | Will learn in upcoming tutorials | Damir | Open |
+| R-02 | Logistical | The team is inexperienced with front-end development. | H | M | Will learn in upcoming tutorials | Damir | Closed |
+| R-03 | Logistical | Scope of the project is rapidly expanding. | M | H | Attempting to find low-complexity solutions | Damir | Open |
 
 
 ## Risk Review History
@@ -36,6 +37,7 @@ If there are any risks that could occur with this project, they will be document
 | Date | Changes Made | Updated By |
 |--------|-------------|------------|
 | 2026-10-09 | Initial risk register created. | Damir |
+| 2026-10-21 | Added R-03, reviewed other risks. | Damir |
 
 ## Lessons Learned
 
@@ -44,3 +46,4 @@ As we encounter problems with this project, they will be updated here.
 | Risk ID | Outcome | Lesson Learned |
 |----------|----------|----------------|
 | R-00 | Example outcome: Thing did not function | Example lesson learned: Learned to fix thing |
+| R-01 | Risk impact is much lower than anticipated | Front-end development skills will be expanded upon later, initial confusion is normal. |
