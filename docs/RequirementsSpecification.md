@@ -11,31 +11,47 @@ Users will be able to create accounts.
 
 Users will be able to log in and log out of their accounts. The system will reject bad login requests.
 
-### FR3 Create Basket
+### FR3 Creating Basket
 
-Shoppers will be able to create baskets for shopping.
+Shoppers will be able to create one or more baskets for shopping and product comparison.
 
-### FR4 Item Search
+### FR4 Item Info
 
-Shoppers will be able to search for items.
+Item information will be created and added to a table or database for viewing.
 
-### FR5 Adding Items
+### FR5 Browsing
 
-Shoppers will be able to add items to their baskets.
+Shoppers will be able to search for specific items, and will be able to add them to their basket.
 
-### FR6 User Comments
+### FR6 Favoriting Items
 
-Shoppers will be able to add comments on items.
+Shoppers will be able to "star" or favorite items they want to view later.
 
-### FR7 Comment Disputes
+### FR7 Price Changes
 
-Product vendors will be able to dispute inaccurate comments.
+Items displayed to users will show information about recent price changes.
+
+### FR8 Vendor Approval
+
+Vendors will be able to apply to be verified, displaying to users that their product information is accurate.
+
+### FR9 User Comments
+
+Users will be able to leave notes or comments on specific items.
+
+### FR10 Vendor Comments
+
+Like users, vendors will also be able to leave notes or comments, and can attach them to user comments.
+
+### FR11 Vendor Editing
+
+Vendors will be able to change item information such as pricing, and details.
 
 ## Non-Functional Requirements
 
 ### Reliability
 
-When logged in, user baskets can be saved.
+When logged in, user baskets and favorites should be saved.
 
 ### Usability
 
