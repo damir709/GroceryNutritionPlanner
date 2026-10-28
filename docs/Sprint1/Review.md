@@ -9,3 +9,7 @@
 
 - User registration working
 - User login working
+
+## Stakeholder Feedback
+
+- Add password encryption
