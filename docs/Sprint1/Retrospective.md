@@ -10,3 +10,4 @@
 
 - Earlier task completion/scrums
 - Better front end design
+- Learning password encryption and security
