@@ -12,7 +12,7 @@ app.secret_key = "2154"
 #Data is stored in users.db
 def create_database():
 
-    #Open users.db
+    #Open users.db via SQLite
     conn = sqlite3.connect("users.db")
 
     #Attempt to create the users table
@@ -69,7 +69,7 @@ def verify_login(username, password):
     
     conn.close()
 
-    #If no user had that specific password
+    #If the user didn't enter a password, return false
     if user is None:
         return False
 
