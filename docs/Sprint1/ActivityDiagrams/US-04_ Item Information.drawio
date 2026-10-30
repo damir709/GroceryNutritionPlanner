@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="smhIDJpgZCAQtKy41MLn">
+    <mxGraphModel dx="830" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-1" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-20" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-2" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="355" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-22" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&amp;nbsp;Browse Grocery Items" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-24" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Retrieve Nutritional Information" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-26" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Display Item Not Found" vertex="1">
+          <mxGeometry height="30" width="75" x="466" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-11" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Display Item Information" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-13" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-6" value="Yes">
+          <mxGeometry relative="1" x="-0.3333" y="16" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-14" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-8" value="&lt;div&gt;No&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.25" y="20" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Item Available?" vertex="1">
+          <mxGeometry height="80" width="96" x="322" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-16" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-12" value="Yes">
+          <mxGeometry relative="1" x="0.2" y="16" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-17" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-19" value="No">
+          <mxGeometry relative="1" x="-0.9516" y="-10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Information Available" vertex="1">
+          <mxGeometry height="80" width="96" x="322" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-19" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="355" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Select an Item" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TrGKir4fnzRlPoiWE-RT-25" edge="1" parent="1" source="TrGKir4fnzRlPoiWE-RT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.469;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="TrGKir4fnzRlPoiWE-RT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
