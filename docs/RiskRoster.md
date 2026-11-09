@@ -30,7 +30,7 @@ If there are any risks that could occur with this project, they will be document
 | R-01 | Technical | The team is inexperienced with graphical interface creation. | H | M | Can get up to speed with extra tutorials | Damir | Open |
 | R-02 | Logistical | The team is inexperienced with front-end development. | H | M | Will learn in upcoming tutorials | Damir | Closed |
 | R-03 | Logistical | Scope of the project is rapidly expanding. | M | H | Attempting to find low-complexity solutions | Damir | Handled |
-| R-04 | Technical | Items database needed to be created before the user baskets. | H | M | Basket creation is deferred until after the items database | Handled |
+| R-04 | Technical | Items database needed to be created before the user baskets. | H | M | Basket creation is deferred until after the items database | Damir | Handled |
 
 
 ## Risk Review History
