@@ -12,7 +12,7 @@ app.secret_key = "2154"
 #Data is stored in users.db
 def create_database():
 
-    #Open users.db via SQLite
+    #Open users.db
     conn = sqlite3.connect("users.db")
 
     #Attempt to create the users table
@@ -30,6 +30,26 @@ def create_database():
     conn.commit()
     conn.close()
 
+    #Create another database of items that users can browse
+    #Open users .db
+    conn = sqlite3.connect("items.db")
+
+    #Create a table for the item information
+    conn.execute(
+        """
+        CREATE TABLE IF NOT EXISTS items (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            name TEXT NOT NULL,
+            brand TEXT NOT NULL,
+            food_group TEXT,
+            calories INTEGER NOT NULL,
+            price DECIMAL(7, 2) NOT NULL,
+            type TEXT NOT NULL,
+            location TEXT
+            )
+        """
+        )
+            
 
 # User functions, writing to database
 # This method takes a username and a password
@@ -69,7 +89,7 @@ def verify_login(username, password):
     
     conn.close()
 
-    #If the user didn't enter a password, return false
+    #If no user had that specific password
     if user is None:
         return False
 
@@ -86,7 +106,7 @@ def verify_login(username, password):
 @app.route("/register", methods=["GET", "POST"])
 def register():
 
-    #If the user is requesting to send data to the Flask registration page
+    #If the user is requesting to send data to the Flask registration page...
     if request.method == "POST":
 
         #Get the prompted username and password from the Flask server     
@@ -133,14 +153,13 @@ def login():
         #If the password from a user login matched what was in the database
         if verify_login(username, password) == True:
 
-            #Create a session for that user with their username, and redirect them to the dashboard.
+            #Create a session for that user with their username, and redirect them to the search page.
             session["username"] = username
-            return redirect("/dashboard")
+            return redirect("/search")
 
         #If the password did not match, say it is invalid.
         return "Invalid username or password."
 
-    #On the webpage, return HTML elements for a login page.
     return """
     <h2>Account Login</h2>
 
@@ -158,6 +177,85 @@ def login():
         <input type="submit" value="Login">
     </form>
     """
+
+#Method to searching items
+@app.route("/search", methods=["GET", "POST"])
+def search():
+
+    #Users must be logged in to search for items
+    if "username" not in session:
+        return redirect("/login")
+
+    #Create a list to hold potential item search results
+    results = []
+
+    #If the user is requesting to submit text in the search route...
+    if request.method == "POST":
+
+        #Get the term the user wants to search, like "Banana"
+        search_term = request.form["search"]
+
+        #Connect to the items database
+        conn = sqlite3.connect("items.db")
+
+        #Select the items that match what the user has searched
+        index = conn.execute(
+            """
+            SELECT *
+            FROM items
+            WHERE name LIKE ?
+            """,
+            ('%' + search_term + '%',)
+        )
+
+        #Fetch all the results for the user and display them
+        results = index.fetchall()
+
+        #Since results are lists, format them with HTML
+        html_results = ""
+
+        #For every element in the results query, format them and display them to the user
+        for item in results:
+            html_results += f"""
+                <p>
+                <strong>{item[1]}</strong><br>
+                Brand: {item[2]}<br>
+                Calories: {item[4]}<br>
+                Price: ${item[5]}<br>
+                Type: {item[6]}
+                </p>
+                <hr>
+            """
+        
+        conn.close()
+
+    return f"""
+    <h2>Search Items</h2>
+
+    <form method="POST">
+        <input type="text" name="search">
+        <input type="submit" value="Search">
+    </form>
+
+    <br>
+
+    {html_results}
+    """
+
+#Method for viewing every item in the items database, debugging tool
+@app.route("/items")
+def items():
+
+    conn = sqlite3.connect("items.db")
+
+    items = conn.execute(
+        "SELECT * FROM items"
+    ).fetchall()
+
+    conn.close()
+
+    return str(items)
+
 
 #Main dashboard to be added later
 @app.route("/dashboard")
@@ -182,3 +280,4 @@ def users():
 if __name__ == "__main__":
     create_database()
     app.run(debug=True)
+
