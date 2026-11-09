@@ -51,4 +51,4 @@ As we encounter problems with this project, they will be updated here.
 | R-00 | Example outcome: Thing did not function | Example lesson learned: Learned to fix thing |
 | R-02 | Risk impact is much lower than anticipated | Front-end development skills will be expanded upon later, initial confusion is normal. |
 | R-03 | Small-scale web framework chosen for project | Software projects require additional packages or frameworks to aid with implementation |
-| R-04 | Other user stories prioritized first | Sometimes pieces of the project need to be put on hold, and returned to |
+| R-04 | Other user stories prioritized first | Sometimes pieces of the project need to be put on hold, and returned to another time |
