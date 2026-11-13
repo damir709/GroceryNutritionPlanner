@@ -9,4 +9,4 @@ main.py: The main source code for the project. It contains code for the Flask vi
 
 users.db: A very barebones users database file which stores a username and password for a client.
 
-items.db: A database file populated with sample items
+items.db: A database file populated with sample items.
