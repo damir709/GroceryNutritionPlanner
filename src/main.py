@@ -1,6 +1,9 @@
 #This is the source code for the student Grocery Planner , created by Damir & Tahmid
 #The project uses Flask as a local web framework, with sqlite being used to create the necessary databases.
 #Hashlib and secrets libraries are used for password security
+
+#This code, as well as items.db, and users.db are part of Iteration 1!!!
+
 from flask import Flask, request, session, redirect
 import sqlite3
 
