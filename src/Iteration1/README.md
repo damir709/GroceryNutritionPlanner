@@ -1,5 +1,5 @@
 # Iteration 1
-This is the first iteration of our project. All files included in this folder are relevant for the project.
+This is the first iteration of our project. All files included in the /src are relevant for the project.
 
 # Files
 
