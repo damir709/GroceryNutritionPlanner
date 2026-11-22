@@ -2,7 +2,8 @@
 
 ## Completed Stories
 
-- US-01
+- US-01 Create Account
+- US-02 Login/Logout
 
 ## Completed tasks
 
