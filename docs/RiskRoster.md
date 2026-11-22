@@ -27,10 +27,11 @@ If there are any risks that could occur with this project, they will be document
 
 | Risk ID | Category | Risk Description | Probability | Impact | Mitigation Strategy | Owner | Status |
 |----------|------------|-----------------|-------------|---------|---------------------|--------|---------|
-| R-01 | Technical | The team is inexperienced with graphical interface creation. | H | M | Can get up to speed with extra tutorials | Damir | Open |
+| R-01 | Technical | The team is inexperienced with graphical interface creation. | H | M | Can get up to speed with extra tutorials | Damir | Closed |
 | R-02 | Logistical | The team is inexperienced with front-end development. | H | M | Will learn in upcoming tutorials | Damir | Closed |
 | R-03 | Logistical | Scope of the project is rapidly expanding. | M | H | Attempting to find low-complexity solutions | Damir | Handled |
 | R-04 | Technical | Items database needed to be created before the user baskets. | H | M | Basket creation is deferred until after the items database | Damir | Handled |
+| R-05 | Logistical | Project is behind schedule due to team member injury. | H | H | Finding extra scrum/project time whenever possible. | Damir | Open |
 
 
 ## Risk Review History
@@ -41,6 +42,7 @@ If there are any risks that could occur with this project, they will be document
 | 2026-10-21 | Added R-03, reviewed other risks. | Damir |
 | 2026-10-27 | Reviewed R-01, Closed R-03 | Damir |
 | 2026-11-09 | Reviewed all risks, opened and handled R-04 | Damir |
+| 2026-11-22 | Opened R-05, closed R-01 | Damir |
 
 ## Lessons Learned
 
@@ -49,6 +51,7 @@ As we encounter problems with this project, they will be updated here.
 | Risk ID | Outcome | Lesson Learned |
 |----------|----------|----------------|
 | R-00 | Example outcome: Thing did not function | Example lesson learned: Learned to fix thing |
+| R-01 | Front-end development slowly improved | Sometimes projects demand skills before you learn them |
 | R-02 | Risk impact is much lower than anticipated | Front-end development skills will be expanded upon later, initial confusion is normal. |
 | R-03 | Small-scale web framework chosen for project | Software projects require additional packages or frameworks to aid with implementation |
 | R-04 | Other user stories prioritized first | Sometimes pieces of the project need to be put on hold, and returned to another time |
