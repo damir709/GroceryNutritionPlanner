@@ -3,7 +3,6 @@
 ## Completed Stories
 
 - US-01
-- US-02
 
 ## Completed tasks
 
